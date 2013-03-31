@@ -24,7 +24,7 @@ now you can bind your handler at some upload url e.g. '/images/upload' and
 process uploads as you usually do, e.g.
 
 ```js
-app.get('/images/upload', function(req, res) {
+app.post('/images/upload', function(req, res) {
 	res.json({filename: path.filename(req.files.image.path)});
 });
 ```
