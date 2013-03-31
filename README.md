@@ -1,4 +1,4 @@
-# Ajax file uploading helper for expressjs
+# Ajax file uploading iframe fallback for expressjs
 
 express framework already provides convenient way for uploading files using
 bodyParser. Ajax file uploading works great at modern browsers but we

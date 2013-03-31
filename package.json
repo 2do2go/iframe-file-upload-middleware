@@ -1,7 +1,7 @@
 {
   "name": "iframe-file-upload-middleware",
   "version": "0.1.0",
-  "description": "Ajax file uploading helper for expressjs",
+  "description": "Ajax file uploading iframe fallback for expressjs",
   "repository": {
     "type": "git",
     "url": "git://github.com/2do2go/iframe-file-upload-middleware"
