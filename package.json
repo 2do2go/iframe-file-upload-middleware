@@ -1,0 +1,14 @@
+{
+  "name": "iframe-file-upload-middleware",
+  "version": "0.1.0",
+  "description": "Iframe file upload helper for expressjs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/2do2go/iframe-file-upload-middleware"
+  },
+  "main": "./lib/iframeFileUpload",
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
+
