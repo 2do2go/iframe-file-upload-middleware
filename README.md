@@ -31,7 +31,7 @@ app.get('/images/upload', function(req, res) {
 client setup using [jquery file upload](http://blueimp.github.com/jQuery-File-Upload/)
 
 ```js
-  $('#input[name=image]').fileupload({
+  $('input[name=image]').fileupload({
     url: '/images/upload',
     redirect: 'default',
     dataType: 'json'
