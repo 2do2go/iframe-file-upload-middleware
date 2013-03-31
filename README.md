@@ -31,13 +31,13 @@ app.post('/images/upload', function(req, res) {
 client setup using [jquery file upload](http://blueimp.github.com/jQuery-File-Upload/)
 
 ```js
-	$('input[name=image]').fileupload({
-		url: '/images/upload',
-		redirect: 'default',
-		dataType: 'json'
-	}).on('fileuploaddone', function(event, data) {
-		alert(data.result.filename);
-	});
+$('input[name=image]').fileupload({
+	url: '/images/upload',
+	redirect: 'default',
+	dataType: 'json'
+}).on('fileuploaddone', function(event, data) {
+	alert(data.result.filename);
+});
 ```
 
 now you can upload image using file input and recives it's file name to the
