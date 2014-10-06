@@ -1,6 +1,6 @@
 {
   "name": "iframe-file-upload-middleware",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Ajax file uploading iframe fallback for expressjs",
   "author": "Oleg Korobenko <oleg.korobenko@gmail.com>",
   "repository": {
